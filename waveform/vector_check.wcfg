@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="pipeline_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="pipeline_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
+      <ZoomEndTime time="195.584 ns"></ZoomEndTime>
+      <Cursor1Time time="39.046 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="200"></NameColumnWidth>
+      <ValueColumnWidth column_width="229"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="8" />
+   <wvobject fp_name="group21" type="group">
+      <obj_property name="label">global</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/clk" type="logic">
+         <obj_property name="ElementShortName">clk</obj_property>
+         <obj_property name="ObjectShortName">clk</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/rst" type="logic">
+         <obj_property name="ElementShortName">rst</obj_property>
+         <obj_property name="ObjectShortName">rst</obj_property>
+         <obj_property name="CustomSignalColor">#00FF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group22" type="group">
+      <obj_property name="label">program flow</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/FC/PCF" type="array">
+         <obj_property name="ElementShortName">PCF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">PCF[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/FC/InstrF" type="array">
+         <obj_property name="ElementShortName">InstrF[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrF[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/FC/InstrD" type="array">
+         <obj_property name="ElementShortName">InstrD[31:0]</obj_property>
+         <obj_property name="ObjectShortName">InstrD[31:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFA500</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group26" type="group">
+      <obj_property name="label">decode signals</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/VRF/rs1" type="array">
+         <obj_property name="ElementShortName">rs1[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rs1[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/VRF/rs2" type="array">
+         <obj_property name="ElementShortName">rs2[1:0]</obj_property>
+         <obj_property name="ObjectShortName">rs2[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/RdE" type="array">
+         <obj_property name="ElementShortName">RdE[4:0]</obj_property>
+         <obj_property name="ObjectShortName">RdE[4:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/isVectorD" type="logic">
+         <obj_property name="ElementShortName">isVectorD</obj_property>
+         <obj_property name="ObjectShortName">isVectorD</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/ALUControlD" type="array">
+         <obj_property name="ElementShortName">ALUControlD[2:0]</obj_property>
+         <obj_property name="ObjectShortName">ALUControlD[2:0]</obj_property>
+         <obj_property name="CustomSignalColor">#FFFF00</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group30" type="group">
+      <obj_property name="label">pipeline control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/FC/stall" type="logic">
+         <obj_property name="ElementShortName">stall</obj_property>
+         <obj_property name="ObjectShortName">stall</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/HU/vector_busy" type="logic">
+         <obj_property name="ElementShortName">vector_busy</obj_property>
+         <obj_property name="ObjectShortName">vector_busy</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/HU/vector_hazard" type="logic">
+         <obj_property name="ElementShortName">vector_hazard</obj_property>
+         <obj_property name="ObjectShortName">vector_hazard</obj_property>
+         <obj_property name="CustomSignalColor">#008080</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group34" type="group">
+      <obj_property name="label">vector register indices</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/Vrs1E" type="array">
+         <obj_property name="ElementShortName">Vrs1E[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Vrs1E[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/Vrs2E" type="array">
+         <obj_property name="ElementShortName">Vrs2E[1:0]</obj_property>
+         <obj_property name="ObjectShortName">Vrs2E[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/VrdM" type="array">
+         <obj_property name="ElementShortName">VrdM[1:0]</obj_property>
+         <obj_property name="ObjectShortName">VrdM[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/VrdW" type="array">
+         <obj_property name="ElementShortName">VrdW[1:0]</obj_property>
+         <obj_property name="ObjectShortName">VrdW[1:0]</obj_property>
+         <obj_property name="CustomSignalColor">#808000</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group35" type="group">
+      <obj_property name="label">vector executions i/p</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/VectorSrc1E" type="array">
+         <obj_property name="ElementShortName">VectorSrc1E[127:0]</obj_property>
+         <obj_property name="ObjectShortName">VectorSrc1E[127:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/VectorSrc2E" type="array">
+         <obj_property name="ElementShortName">VectorSrc2E[127:0]</obj_property>
+         <obj_property name="ObjectShortName">VectorSrc2E[127:0]</obj_property>
+         <obj_property name="CustomSignalColor">#D2691E</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group38" type="group">
+      <obj_property name="label">vector ALU result</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/VectorResultE" type="array">
+         <obj_property name="ElementShortName">VectorResultE[127:0]</obj_property>
+         <obj_property name="ObjectShortName">VectorResultE[127:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/VectorResultM" type="array">
+         <obj_property name="ElementShortName">VectorResultM[127:0]</obj_property>
+         <obj_property name="ObjectShortName">VectorResultM[127:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/DC/VectorResultW" type="array">
+         <obj_property name="ElementShortName">VectorResultW[127:0]</obj_property>
+         <obj_property name="ObjectShortName">VectorResultW[127:0]</obj_property>
+         <obj_property name="CustomSignalColor">#00FFFF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+   <wvobject fp_name="group42" type="group">
+      <obj_property name="label">vector control</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="isExpanded"></obj_property>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/isVectorE" type="logic">
+         <obj_property name="ElementShortName">isVectorE</obj_property>
+         <obj_property name="ObjectShortName">isVectorE</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/EC/isVectorM" type="logic">
+         <obj_property name="ElementShortName">isVectorM</obj_property>
+         <obj_property name="ObjectShortName">isVectorM</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+      <wvobject fp_name="/pipeline_tb/DUT/MC/isVectorW" type="logic">
+         <obj_property name="ElementShortName">isVectorW</obj_property>
+         <obj_property name="ObjectShortName">isVectorW</obj_property>
+         <obj_property name="CustomSignalColor">#0000FF</obj_property>
+         <obj_property name="UseCustomSignalColor">true</obj_property>
+      </wvobject>
+   </wvobject>
+</wave_config>
